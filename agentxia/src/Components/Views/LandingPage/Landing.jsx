@@ -5,6 +5,7 @@ import hero2 from '../../../assets/hero-2.png';
 import hero3 from '../../../assets/hero-3.png';
 import hero4 from '../../../assets/hero-4.png';
 import { _Navbar } from '../Navbar';
+import { Contactanos } from './Contactanos';
 import { Grid } from './Grid'
 import { Grid2 } from './Grid2';
 import { Grid3 } from './Grid3';
@@ -38,6 +39,9 @@ const Landing = () => {
       </div>
       <div>
         <Reviwes />
+      </div>
+      <div>
+        <Contactanos />
       </div>
     </>
   )
