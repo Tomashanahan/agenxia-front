@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@400;700&display=swap');
+
+.container-navbar {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(3, 3, 3, .1);
+}
+
+.navbar_ {
+    height: 15vh;
+}
+
+.img-logo {
+    width: 80%;
+}
+
+.nav_conten {
+    margin-left: 14%;
+}
+
+.btn_navbar {
+    color: #047AF1;
+    height: 35px;
+    width: 10%;
+    margin-right: -4%;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-nav {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 13px;
+    margin-right: 0;
+    color: #FFFFFF;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@400;700&display=swap');
+
+.reviews-cards{
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.16);
+   
+}
+
+.text-card-review{
+    margin: 3% 0 0 4%;
+    text-align: left;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.img-perfil-review{
+    margin-right: 3%;
+}
+

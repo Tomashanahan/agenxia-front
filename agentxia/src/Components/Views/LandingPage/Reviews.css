@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@400;700&display=swap');
+
+.container-reviews{
+    height: 70vh;
+}
+.reviews-h1{
+    font-family: 'Anton', sans-serif;
+    margin: 5% 0 3% 5%;
+    text-align: left;   
+}
+.reviews-p{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 0 2% 5%;
+    text-align: left;
+    font-weight: 700;
+}
+.container-review-card{
+    margin: auto;
+    width: 93%;
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@400;700&display=swap');
+
+.container-grid-5{
+    width: 99.1%;
+    height: 75vh;
+}
+
+.R1-C1-5{
+    height: 37.5vh;
+    background: #024873;
+}
+
+.R1-C2-5{
+    height: 37.5vh;
+    background: #0388A6;
+}
+
+.R2-C1-5{
+    height: 37.5vh;
+    background: #013A40;
+}
+
+.R2-C2-5{
+    height: 37.5vh;
+    background: #024B80;
+}
+/*-------------------------------------*/
+
+.R1-C1-5 h1 {
+    margin: 8% 0 4% 10%;
+    text-align: start;
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    color: #fff;
+}
+
+.R1-C1-5 p {
+    text-align: start;
+    margin: 0 4% 4% 10%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+}
+
+.R2-C1-5 h1 {
+    margin: 8% 0 4% 10%;
+    text-align: start;
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    color: #fff;
+}
+
+.R2-C1-5 p {
+    text-align: start;
+    margin: 0 4% 4% 10%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+}
+
+/*------------------------------------*/
+.R1-C2-5 h1 {
+    margin: 8% 0 4% 1%;
+    text-align: start;
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    color: #fff;
+}
+
+.R1-C2-5 p {
+    text-align: start;
+    margin: 0 11% 4% 1%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+}
+
+.R2-C2-5 h1 {
+    margin: 8% 0 4% 1%;
+    text-align: start;
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    color: #fff;
+}
+
+.R2-C2-5 p {
+    text-align: start;
+    margin: 0 11% 4% 1%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+}
