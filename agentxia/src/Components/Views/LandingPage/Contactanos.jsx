@@ -1,29 +1,35 @@
 import React from 'react';
-import {Form, Button} from 'react-bootstrap';
+import { Form, Button } from 'react-bootstrap';
+import './Contactanos.css';
 
 const Contactanos = () => {
   return (
-    <div>
-          <Form>
-      <Form.Group className="mb-3" controlId="formBasicNombre">
-        <Form.Label>Nombre</Form.Label>
-        <Form.Control type="email" placeholder="Nombre" />
-       
-      </Form.Group>
+    <div className='container-form'>
+      <h1 className='form-h1'>Contactanos</h1>
+      <p className='form-p'>Habla con un asesor sobre cuáles son tus objetivos de viaje y ellos comenzarán a construir tus vacaciones perfectas de inmediato.</p>
+      <Form>
+        <Form.Group className="mb-3" controlId="formBasicNombre">
+          <Form.Label className='label-contac'>Nombre</Form.Label>
+          <Form.Control className='form-control-contac' type="text" />
 
-      <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label>Password</Form.Label>
-        <Form.Control type="password" placeholder="Password" />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
-      </Form.Group>
-      <Button variant="primary" type="submit">
-        Enviar
-      </Button>
-    </Form>
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Label className='label-contac'>Correo</Form.Label>
+          <Form.Control className='form-control-contac' type="email" />
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Label className='label-contac'>Mensaje</Form.Label>
+          <Form.Control className='form-control-contac-textA' as="textarea" rows={6} />
+        </Form.Group>
+
+        <Button className='btn-form-contac' type="submit">
+          Enviar
+        </Button>
+      </Form>
     </div>
   )
 }
 
-export {Contactanos}
+export { Contactanos }

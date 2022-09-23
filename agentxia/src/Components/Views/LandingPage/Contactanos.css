@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@400;700&display=swap');
+
+.container-form {
+    position: absolute;
+    width: 40%;
+    text-align: left;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+.form-h1 {
+    font-family: "Anton";
+    color: #fff;
+    margin-bottom: 5%;
+}
+
+.form-p {
+    font-family: "Nunito Sans";
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 3%;
+}
+
+.label-contac {
+    font-family: "Nunito Sans", serif;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+.btn-form-contac {
+    margin-top: 2%;
+    background: #2EA684;
+    border: #2EA684;
+    height: 7vh;
+    width: 20%;
+    font-family: "Nunito Sans";
+    font-weight: 700;
+}
+
+.form-control-contac{
+    height: 7vh;
+    opacity: 0.75;
+}
+
+.form-control-contac-textA{
+    opacity: 0.75;
+}
