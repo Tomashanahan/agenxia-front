@@ -4,7 +4,7 @@ import hero1 from '../../../assets/hero-1.png';
 import hero2 from '../../../assets/hero-2.png';
 import hero3 from '../../../assets/hero-3.png';
 import hero4 from '../../../assets/hero-4.png';
-import hero5 from '../../../assets/hero-5.png';
+import hero7 from '../../../assets/hero-7.png';
 import { Footer } from '../Footer/Footer';
 import { _Navbar } from '../Navbar';
 import { Contactanos } from './Contactanos';
@@ -13,7 +13,6 @@ import { Grid2 } from './Grid2';
 import { Grid3 } from './Grid3';
 import { Grid4 } from './Grid4';
 import { Grid5 } from './Grid5';
-import { Grid6 } from './Grid6';
 import { Reviwes } from './Reviwes';
 
 
@@ -44,9 +43,8 @@ const Landing = () => {
         <Reviwes />
       </div>
       <div>
-        <Grid6 />
         <Contactanos />
-        <Image src={hero5} style={{ width: "100%", height: "100vh" }} />
+        <Image src={hero7} style={{ width: "100%", height: "85vh" }} />
       </div>
       <div>
         <Footer />

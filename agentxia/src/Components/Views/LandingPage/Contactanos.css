@@ -1,17 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@400;700&display=swap');
 
 .container-form {
+    width: 100%;
     position: absolute;
-    width: 40%;
-    text-align: left;
-    margin-left: 8%;
-    margin-top: 3%;
+    margin-top: 5%;
+    text-align: center;
+    display: grid;
+    place-content: center;
 }
 
 .form-h1 {
     font-family: "Anton";
     color: #fff;
     margin-bottom: 5%;
+    font-size: 500%;
+}
+
+.form-h2 {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 5%;
+    font-size: 250%;
 }
 
 .form-p {
@@ -21,28 +31,27 @@
     margin-bottom: 3%;
 }
 
-.label-contac {
-    font-family: "Nunito Sans", serif;
-    color: #fff;
-    font-weight: 700;
-    margin-bottom: 2%;
+.cont-input-and-button {
+    display: flex;
+}
+
+.form-control-contac {
+    height: 10vh;
+    width: 450%;
+    opacity: 0.75;
+    font-size: 110%;
 }
 
 .btn-form-contac {
-    margin-top: 2%;
+    z-index: 1;
     background: #2EA684;
     border: #2EA684;
-    height: 7vh;
-    width: 20%;
+    height: 8.5vh;
+    width: 18%;
     font-family: "Nunito Sans";
     font-weight: 700;
+    margin-top: .55%;
+    margin-left: 57%;
+    font-size: 110%;
 }
 
-.form-control-contac{
-    height: 7vh;
-    opacity: 0.75;
-}
-
-.form-control-contac-textA{
-    opacity: 0.75;
-}
