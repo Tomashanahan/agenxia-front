@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@400;700&display=swap');
 
+@media(max-width:993px) {
+  .container-from{
+      display: none;
+  }
+
+}
 .container-form {
     width: 100%;
     position: absolute;
@@ -55,3 +61,17 @@
     font-size: 110%;
 }
 
+@media(max-width:768px) {
+  .container-form{
+    width: 99%;
+  }
+  .cont-input-and-button{
+    display: grid;
+  }
+  .form-control-contac{
+    width: 100%;
+  }
+  .btn-form-contac{
+    z-index: 0;
+  }
+}

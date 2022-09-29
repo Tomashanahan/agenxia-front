@@ -15,7 +15,7 @@
 }
 
 .nav_conten {
-    margin-left: 14%;
+    margin-left: 27%;
 }
 
 .btn_navbar {
@@ -38,5 +38,41 @@
     line-height: 24px;
     margin-left: 13px;
     margin-right: 0;
-    color: #FFFFFF;
+    color: #ffffff;
+}
+
+@media(max-width:1024px){
+   .nav_conten{
+    margin-left: -1%;
+   } 
+   .btn_navbar{
+    width: 15%;
+    margin-left: 10px;
+   }
+}
+
+@media(min-width:992px){
+   .div-navbar-menu{
+    display: none;
+   } 
+}
+
+@media(max-width:992px){
+    .img-navbar-menu{
+        width: 150%;
+    }
+    .div-navbar-menu{
+       margin-right: 5%;
+       position: relative;
+    }
+    .toggle{
+        position: absolute;
+        margin-top: -130%;
+        margin-left: -60%;
+        opacity: -1;
+    }
+    .container-navbar{
+        position: absolute;
+    }
+    
 }
