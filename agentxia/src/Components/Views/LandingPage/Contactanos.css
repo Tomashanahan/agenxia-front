@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@400;700&display=swap');
+
+@media(max-width:993px) {
+  .container-from{
+      display: none;
+  }
+
+}
+.container-form {
+    width: 100%;
+    position: absolute;
+    margin-top: 5%;
+    text-align: center;
+    display: grid;
+    place-content: center;
+}
+
+.form-h1 {
+    font-family: "Anton";
+    color: #fff;
+    margin-bottom: 5%;
+    font-size: 500%;
+}
+
+.form-h2 {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 5%;
+    font-size: 250%;
+}
+
+.form-p {
+    font-family: "Nunito Sans";
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 3%;
+}
+
+.cont-input-and-button {
+    display: flex;
+}
+
+.form-control-contac {
+    height: 10vh;
+    width: 450%;
+    opacity: 0.75;
+    font-size: 110%;
+}
+
+.btn-form-contac {
+    z-index: 1;
+    background: #2EA684;
+    border: #2EA684;
+    height: 8.5vh;
+    width: 18%;
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    margin-top: .55%;
+    margin-left: 57%;
+    font-size: 110%;
+}
+
+@media(max-width:768px) {
+  .container-form{
+    width: 99%;
+  }
+  .cont-input-and-button{
+    display: grid;
+  }
+  .form-control-contac{
+    width: 100%;
+  }
+  .btn-form-contac{
+    z-index: 0;
+  }
+}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@400;700&display=swap');
+
+@media(min-width:993px) {
+    .container-responsiv {
+        display: none;
+    }
+}
+
+@media(max-width:993px) {
+    .R3-C2-Responsiv {
+        background: #024873;
+        color: #FFF
+    }
+
+    .Row-grid-text-Responsiv {
+        width: 100%;
+        height: 55vh;
+        margin: 0;
+    }
+
+    .R3-C2-Responsiv h1 {
+        margin: 18vh 0 4% 4%;
+        text-align: start;
+        font-family: 'Anton', sans-serif;
+        font-size: 3.5vh;
+    }
+
+    .R3-C2-Responsiv p {
+        text-align: start;
+        margin: 0 4% 4% 4%;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 400;
+        font-size: 2vh;
+    }
+
+    .btn-R3-Responsiv {
+        background-color: #F27052;
+        width: 30%;
+        height: 5vh;
+        margin: 1% 65% 0 0;
+        border: #F27052;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        font-size: 2vh;
+    }
+
+    .cont-grid-responsiv {
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        height: 25vh;
+        width: 100%;
+    }
+   
+    
+    .R1-C1-Responsiv-i{
+        height: 10vh;
+        background: rgba(5, 151, 242, 0.2);
+    }
+    .R1-C2-Responsiv-i{
+        height: 15vh;
+    }
+    .R1-C3-Responsiv-i{
+        height: 10vh;
+        background: rgba(2, 72, 115, 0.8);
+    }
+
+    .R2-C1-Responsiv-i{
+        height: 10vh;
+    }
+    .R2-C2-Responsiv-i{
+        height: 15vh;
+    }
+    .R2-C3-Responsiv-i{
+        height: 10vh;
+        background: rgba(7, 109, 242, 0.4);
+    }
+
+    .R3-C1-Responsiv-i{
+        height: 10vh;
+        background: rgba(7, 109, 242, 0.6);
+    }
+    .R3-C2-Responsiv-i{
+        height: 15vh;
+    }
+    .R3-C3-Responsiv-i{
+        height: 10vh;
+    }
+
+    .R4-C1-Responsiv-i{
+        height: 10vh;
+        background: rgba(2, 72, 115, 0.8);
+    }
+    .R4-C2-Responsiv-i{
+        height: 15vh;
+    }
+    .R4-C3-Responsiv-i{
+        height: 10vh;
+        background: rgba(5, 151, 242, 0.2);
+    }
+}
+
+@media(max-width:473px) {
+    .btn-R3-Responsiv {
+        background-color: #F27052;
+        width: 35%;
+        height: 5vh;
+        margin: 1% 58% 0 0;
+        border: #F27052;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        font-size: 2vh;
+    }
+}

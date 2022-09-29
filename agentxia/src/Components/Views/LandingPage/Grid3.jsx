@@ -1,11 +1,13 @@
 import React from 'react';
 import './Grid3.css';
 import { Row, Col, Button } from 'react-bootstrap';
+import AOS from 'aos';
 
 const Grid3 = () => {
+    AOS.init()
     return (
         <>
-            <div className='container-grid-3'>
+            <div className='container-grid-3' data-aos="fade-right">
                 <Row className='Row-grid-3'>
                     <Col className="R1-C1-3" md={3}></Col>
                     <Col className="R1-C2-3" md={3}></Col>

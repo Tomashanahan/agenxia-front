@@ -1,10 +1,12 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import './Grid5.css';
+import AOS from 'aos';
 
 const Grid5 = () => {
+    AOS.init();
     return (
-        <div className='container-grid-5'>
+        <div className='container-grid-5' data-aos="fade-left">
             <Row className='Row-grid-5'>
                 <Col className="R1-C1-5" md={6}>
                     <h1>MÁS BENEFICIOS</h1>

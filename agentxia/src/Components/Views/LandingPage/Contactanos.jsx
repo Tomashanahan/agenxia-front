@@ -1,31 +1,26 @@
 import React from 'react';
-import {Form, Button} from 'react-bootstrap';
+import { Form, Button } from 'react-bootstrap';
+import './Contactanos.css';
 
 const Contactanos = () => {
   return (
-    <div>
-          <Form>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Nombre</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
-        <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text>
-      </Form.Group>
+    <div className='container-form'>
+      <h1 className='form-h1'>Suscríbete</h1>
+      <h2 className='form-h2'>PARA RECIBIR OFERTAS Y NOTICIAS</h2>
+      <p className='form-p'>Habla con un asesor sobre cuáles son tus objetivos de viaje y ellos comenzarán a construir tus vacaciones perfectas de inmediato.</p>
 
-      <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label>Password</Form.Label>
-        <Form.Control type="password" placeholder="Password" />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
-      </Form.Group>
-      <Button variant="primary" type="submit">
-        Enviar
-      </Button>
-    </Form>
+      <Form>
+       <div className="cont-input-and-button">
+       <Form.Group className="mb-3 " controlId="formBasicPassword">
+          <Form.Control className='form-control-contac rounded-pill' type="email" placeholder='Ingresa tu correo' />
+        </Form.Group>
+        <Button className='btn-form-contac rounded-pill' type="submit">
+          Suscríbete
+        </Button>
+       </div>
+      </Form>
     </div>
   )
 }
 
-export {Contactanos}
+export { Contactanos }
