@@ -6,8 +6,8 @@ import AOS from 'aos';
 
 const Grid = () => {
   AOS.init({
-    delay: 300,
-    duration: 900,
+    delay: 1000,
+    duration: 1000,
     offset: 100,
   });
   return (

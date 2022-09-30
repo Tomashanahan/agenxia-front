@@ -49,7 +49,7 @@ const Landing = () => {
       </div>
       <div>
         <Contactanos />
-        <Image className='img-hero' src={hero7} />
+        <Image className='img-hero-down' src={hero7} />
       </div>
       <div>
         <Footer />
