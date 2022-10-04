@@ -17,6 +17,8 @@ import { Grid5 } from './Grid5';
 import { Reviwes } from './Reviwes';
 import { GridResponsiv } from './GridsResponsiv/GridResponsiv';
 import { GridResponsiv2 } from './GridsResponsiv/GridResponsiv2';
+import { GridResponsiv3 } from './GridsResponsiv/GridResponsiv3';
+import { GridResponsiv4 } from './GridsResponsiv/GridResponsiv4';
 
 
 const Landing = () => {
@@ -35,10 +37,12 @@ const Landing = () => {
       </div>
       <div>
         <Grid3 />
+        <GridResponsiv3 />
         <Image className='img-hero' src={hero3} />
       </div>
       <div>
         <Grid4 />
+        <GridResponsiv4 />
         <Image className='img-hero' src={hero4} />
       </div>
       <div>

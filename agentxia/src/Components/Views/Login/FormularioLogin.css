@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.cont-formulario-login {
+    width: 62%;
+    display: grid;
+    place-content: center;
+}
+
+.cont-h4{
+    margin-bottom: 5%;
+    text-align: center;
+    width: 170%;
+    margin-left: -35%;  
+    color: #334034;
+}
+
+.login-formulario-h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;    
+}
+
+.form-cont {
+    width: 170%;
+    margin-left: -35%;
+}
+
+.label-form-login {
+    font-family: 'Poppins', sans-serif;
+    color: #6D8C7B;
+}
+
+.input-login {
+    font-family: 'Poppins', sans-serif;
+    background: #DFEDF2;
+    border-radius: 8px;
+    border: none;
+    height: 8vh;
+    margin-bottom: 5%;
+    color: #6D8C7B;
+}
+
+.group-checkLink {
+    display: flex;
+    
+}
+
+.remember {
+    margin-bottom: 10%;
+    width: 60%;
+}
+
+
+
+.btn-login-form {
+    background: #6D8C7B;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    padding: 3% 0 3% 0;
+}
+
+.label-down{
+    margin-top: 4%;
+}
+
+.login-h5{
+    text-align: center;
+    margin-top: 4%;
+}

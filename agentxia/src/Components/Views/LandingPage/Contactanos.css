@@ -1,77 +1,130 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@400;700&display=swap');
 
-@media(max-width:993px) {
-  .container-from{
-      display: none;
-  }
-
-}
 .container-form {
-    width: 100%;
-    position: absolute;
-    margin-top: 5%;
-    text-align: center;
-    display: grid;
-    place-content: center;
+  width: 100%;
+  position: absolute;
+  margin-top: 5%;
+  text-align: center;
+  display: grid;
+  place-content: center;
 }
 
 .form-h1 {
-    font-family: "Anton";
-    color: #fff;
-    margin-bottom: 5%;
-    font-size: 500%;
+  font-family: "Anton";
+  color: #fff;
+  margin-bottom: 5%;
+  font-size: 500%;
 }
 
 .form-h2 {
-    font-family: "Nunito Sans";
-    font-weight: 400;
-    color: #fff;
-    margin-bottom: 5%;
-    font-size: 250%;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 5%;
+  font-size: 250%;
 }
 
 .form-p {
-    font-family: "Nunito Sans";
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 3%;
+  font-family: "Nunito Sans";
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 3%;
 }
 
 .cont-input-and-button {
-    display: flex;
+  position: relative;
 }
 
 .form-control-contac {
-    height: 10vh;
-    width: 450%;
-    opacity: 0.75;
-    font-size: 110%;
+  position: absolute;
+  padding: 2% 1% 2% 1%;
+  opacity: 0.75;
+  font-size: 110%;
+  margin: auto;
 }
 
 .btn-form-contac {
-    z-index: 1;
-    background: #2EA684;
-    border: #2EA684;
-    height: 8.5vh;
-    width: 18%;
-    font-family: "Nunito Sans";
-    font-weight: 700;
-    margin-top: .55%;
-    margin-left: 57%;
-    font-size: 110%;
+  position: absolute;
+  padding: 1.3% 2% 1.3% 2%;
+  background: #2EA684;
+  border: #2EA684;
+  font-family: "Nunito Sans";
+  font-weight: 700;
+  font-size: 110%;
+  top: 9px;
+  right: 10px;
 }
 
-@media(max-width:768px) {
-  .container-form{
-    width: 99%;
+@media(max-width: 993px) {
+  .btn-form-contac {
+    top: 7px;
   }
-  .cont-input-and-button{
-    display: grid;
+  .form-h1{
+    margin: 10% 0;
   }
-  .form-control-contac{
-    width: 100%;
+  .form-p{
+    margin: 10% 5%;
+    text-align: justify;
+    font-size: 18px;
   }
-  .btn-form-contac{
-    z-index: 0;
+}
+
+@media(max-width: 835px) {
+  .cont-input-and-button {
+    width: 90%;
+    margin-left: 5%;
   }
+
+  .btn-form-contac {
+    top: 6px;
+    right: 6px;
+  }
+}
+
+@media(max-width: 715px) {
+  .btn-form-contac {
+    top: 5px;
+    right: 5px;
+  }
+}
+
+@media(max-width: 500px) {
+  .btn-form-contac {
+    top: 6.5px;
+    font-size: 90%;
+  }
+  .form-h1 {
+    font-size: 380%;
+    margin: 10% 0 10% 0;
+  }
+  
+  .form-h2 {
+    font-size: 150%;
+    margin-bottom: 10%;
+  }
+  
+  .form-p {
+    font-size: 15px;
+    margin-bottom: 15%;
+  }
+}
+
+@media(max-width: 360px) {
+  .btn-form-contac {
+    top: 4px;
+  }
+}
+
+@media(max-width:281px){
+    .form-h1{
+      font-size: 250%;
+    }
+    .form-h2{
+      font-size: 100%;
+      margin: 10%;
+    }
+    .form-p{font-size: 80%;}
+    .cont-input-and-button{
+      font-size: 70%;
+    }
 }

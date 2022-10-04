@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@400;700&display=swap');
 
-@media(max-width:923px){
-    .container-reviews{
-        display: none;
-    }
-}
-
 .container-reviews{
     height: 75vh;
 }
@@ -23,4 +17,11 @@
 .container-review-card{
     margin: auto;
     width: 93%;
+}
+
+@media(max-width:923px){
+.container-reviews{
+    height: auto;
+    margin-bottom: 50px;
+}
 }

@@ -8,8 +8,32 @@
     height: 82vh;
 }
 
-@media(max-width:992px){
+@media(max-width:993px){
     .img-hero{
         height: 35vh;
+    }
+}
+
+@media(max-width:740px){
+    .img-hero-down{
+        height: 100vh;
+    }
+}
+
+@media(max-width:500px){
+    .img-hero-down{
+        height: 65vh;
+    }
+}
+
+@media(max-width: 376px){
+    .img-hero-down{
+        height: 77vh;
+    }
+}
+
+@media(max-width:281px){
+    .img-hero-down{
+        height: 70vh;
     }
 }

@@ -9,7 +9,7 @@ import AOS from 'aos'
 const Cards = (props) => {
     AOS.init()
     return (
-        <Col md={6}>
+        <Col md={6} sm={12}>
             <Card className='reviews-cards' data-aos={props.data_aos}
                 data-aos-easing="linear"
                 data-aos-duration="1500">

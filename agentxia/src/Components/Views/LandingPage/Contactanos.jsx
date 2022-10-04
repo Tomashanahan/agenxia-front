@@ -20,12 +20,12 @@ const Contactanos = () => {
         data-aos-delay="300"
         data-aos-offset="0">Habla con un asesor sobre cuáles son tus objetivos de viaje y ellos comenzarán a construir tus vacaciones perfectas de inmediato.</p>
 
-      <Form>
+      <Form className='form-prin'>
         <div className="cont-input-and-button">
-          <Form.Group className="mb-3 " controlId="formBasicPassword" data-aos='fade-left'>
-            <Form.Control className='form-control-contac rounded-pill' type="email" placeholder='Ingresa tu correo' />
+          <Form.Group className="mb-3 " controlId="formBasicPassword">
+            <Form.Control className='form-control-contac rounded-pill ' type="email" placeholder='Ingresa tu correo' />
           </Form.Group>
-          <Button className='btn-form-contac rounded-pill' type="submit" data-aos='fade-right'>
+          <Button className='btn-form-contac rounded-pill' type="submit">
             Suscríbete
           </Button>
         </div>

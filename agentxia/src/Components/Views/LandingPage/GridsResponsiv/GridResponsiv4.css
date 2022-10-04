@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@400;700&display=swap');
+
+@media(min-width:993px) {
+    .container-responsiv-4 {
+        display: none;
+    }
+}
+
+@media(max-width:993px) {
+    .R3-C2-Responsiv-4 {
+        background: #024873;
+        color: #FFF
+    }
+
+    .Row-grid-text-Responsiv-4 {
+        width: 100%;
+        height: 37vh;
+        margin: 0;
+    }
+
+    .R3-C2-Responsiv-4 h1 {
+        margin: 10% 0 6% 6%;
+        text-align: start;
+        font-family: 'Anton', sans-serif;
+        font-size: 3.5vh;
+    }
+
+    .R3-C2-Responsiv-4 p {
+        text-align: start;
+        margin: 0 4% 4% 4%;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 400;
+        font-size: 2vh;
+    }
+
+    .cont-grid-responsiv-4 {
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        height: 25vh;
+        width: 100%;
+    }
+
+
+    .R1-C1-Responsiv-i-4 {
+        height: 10vh;
+        background: rgba(219, 187, 174, 0.2);
+    }
+
+    .R1-C2-Responsiv-i-4 {
+        height: 15vh;
+    }
+
+    .R1-C3-Responsiv-i-4 {
+        height: 10vh;
+        background: rgba(3, 150, 166, 0.8);
+    }
+
+    .R2-C1-Responsiv-i-4 {
+        height: 10vh;
+    }
+
+    .R2-C2-Responsiv-i-4 {
+        height: 15vh;
+    }
+
+    .R2-C3-Responsiv-i-4 {
+        height: 10vh;
+        background: rgba(129, 181, 205, 0.6);
+    }
+
+    .R3-C1-Responsiv-i-4 {
+        height: 10vh;
+        background: rgba(7, 109, 242, 0.6);
+    }
+
+    .R3-C2-Responsiv-i-4 {
+        height: 15vh;
+    }
+
+    .R3-C3-Responsiv-i-4 {
+        height: 10vh;
+    }
+
+    .R4-C1-Responsiv-i-4 {
+        height: 10vh;
+        background: rgba(2, 72, 115, 0.8);
+    }
+
+    .R4-C2-Responsiv-i-4 {
+        height: 15vh;
+    }
+
+    .R4-C3-Responsiv-i-4 {
+        height: 10vh;
+        background: rgba(5, 151, 242, 0.2);
+    }
+}
