@@ -1,0 +1,217 @@
+.Row-grid-container-Contactanos {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.box-Contactanos {
+  width: 240px;
+  height: 124px;
+  background: red;
+}
+
+.R1-C1-2-Contactanos {
+  background-color: rgba(242, 184, 75, 0.8);
+}
+
+.R1-C2-2-Contactanos {
+  background-color: rgba(213, 88, 118, 0.6);
+}
+
+.R1-C3-2-Contactanos {
+  background-color: rgba(5, 151, 242, 0.4);
+}
+
+.R1-C4-2-Contactanos {
+  background-color: rgba(242, 184, 75, 0.2);
+}
+
+.R2-C1-2-Contactanos {
+  background-color: rgba(5, 151, 242, 0.8);
+}
+
+.R2-C2-2-Contactanos {
+  background-color: rgba(242, 184, 75, 0.6);
+}
+
+.R2-C3-2-Contactanos {
+  background-color: rgba(213, 88, 118, 0.4);
+}
+
+.R3-C1-2-Contactanos {
+  background-color: rgba(213, 88, 118, 0.8);
+}
+
+.R3-C2-2-Contactanos {
+  background-color: rgba(5, 151, 242, 0.6);
+}
+
+.R3-C3-2-Contactanos {
+  background-color: rgba(242, 184, 75, 0.4);
+}
+
+.R3-C4-2-Contactanos {
+  background-color: rgba(213, 88, 118, 0.2);
+}
+
+.contactanos {
+  display: flex;
+  justify-content: space-between;
+  padding: 96px;
+}
+
+.form {
+  width: 50%;
+}
+
+.contactanos .form .form-title {
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+}
+
+.contactanos .form .form-text {
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.contactanos form .group-input div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.contactanos form .group-input div input {
+  border-radius: 40px;
+  border: 1px solid #b6b8b8;
+  height: 48px;
+  width: 294px;
+}
+
+.contactanos form .group-input div input::placeholder {
+  color: #b6b8b8;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding: 10px 22px;
+}
+
+.contactanos form .form-textarea label {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.contactanos form .form-textarea {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 32px;
+  justify-content: space-between;
+}
+
+.contactanos form .form-textarea textarea {
+  width: 612px;
+  height: 163px;
+  border-radius: 16px;
+  padding: 12px 20px;
+}
+
+.contactanos form button {
+  background: #047af1;
+  border-radius: 40px;
+  color: white;
+  width: 210px;
+  height: 48px;
+  border: none;
+  margin-top: 32px;
+}
+
+.contactanos form .group-input div label {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.contactanos form .group-input {
+  display: flex;
+  margin-top: 32px;
+  justify-content: space-between;
+}
+
+.datos {
+  width: 612px;
+  height: 760px;
+  left: 732px;
+  top: 64px;
+
+  background: #e42c6a;
+  border-radius: 16px;
+  padding: 35px;
+}
+
+.datos-title {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.datos-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.datos-group-item {
+  display: flex;
+  gap: 36.91px;
+  margin-top: 22px;
+}
+
+.datos-group{
+  margin-top: 36px;
+}
+
+.datos-group-item .title {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.datos-group-item .text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}

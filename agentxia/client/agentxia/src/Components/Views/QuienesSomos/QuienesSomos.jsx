@@ -8,9 +8,12 @@ import QuienesSomosSubImg from '../../../assets/quienes-somos.png';
 import EquipoUno from '../../../assets/equipo-1.png';
 import EquipoDos from '../../../assets/equipo-2.png';
 import EquipoTres from '../../../assets/equipo-3.png';
-import {Row, Col} from 'react-bootstrap';
+import hero7 from '../../../assets/hero-7.png';
+
+import {Row, Col, Image} from 'react-bootstrap';
 import Aos from 'aos';
 import {Footer} from '../Footer/Footer';
+import {Contactanos} from '../LandingPage/Contactanos';
 
 function QuienesSomos() {
   Aos.init({
@@ -292,6 +295,10 @@ function QuienesSomos() {
         </div>
       </div>
 
+      <div>
+        <Contactanos />
+        <Image className="img-hero-down" src={hero7} />
+      </div>
       <Footer />
     </div>
   );

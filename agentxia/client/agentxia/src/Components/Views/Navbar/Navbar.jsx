@@ -27,7 +27,9 @@ const _Navbar = () => {
             <Offcanvas.Body>
               <Nav className="nav_conten">
                 <Nav.Link className="text-white text-nav" to="/">
-                  INICIO
+                  <NavLink className="text-white text-nav" to="/">
+                    INICIO
+                  </NavLink>
                 </Nav.Link>
                 <Nav.Link className="text-white text-nav" to="/">
                   RESERVAR
@@ -46,8 +48,8 @@ const _Navbar = () => {
                 <Nav.Link className="text-white text-nav" to="/">
                   TIENDA
                 </Nav.Link>
-                <Nav.Link className="text-white text-nav" to="/">
-                  CONTÁCTANOS
+                <Nav.Link className="text-white text-nav" to="/CONTÁCTANOS">
+                  <NavLink className="text-white text-nav" to="/CONTÁCTANOS">CONTÁCTANOS</NavLink>
                 </Nav.Link>
               </Nav>
               <Button className="btn_navbar" variant="light">
