@@ -1,0 +1,203 @@
+.Row-grid-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+img {
+  object-fit: cover;
+}
+
+.box {
+  width: 240px;
+  height: 124px;
+}
+
+.R1-C1-2 {
+  background-color: rgba(169, 203, 217, 0.8);
+}
+
+.R1-C2-2 {
+  background-color: rgba(242, 167, 75, 0.6);
+}
+
+.R1-C3-2 {
+  background-color: rgba(217, 187, 169, 0.4);
+}
+
+.R1-C4-2 {
+  background-color: rgba(169, 203, 217, 0.2);
+}
+
+.R2-C1-2 {
+  background-color: rgba(217, 187, 169, 0.8);
+}
+
+.R2-C2-2 {
+  background-color: rgba(169, 203, 217, 0.6);
+}
+
+.R2-C3-2 {
+  background-color: rgba(242, 167, 75, 0.4);
+}
+
+.R3-C1-2 {
+  background-color: rgba(242, 167, 75, 0.8);
+}
+
+.R3-C2-2 {
+  background-color: rgba(217, 187, 169, 0.6);
+}
+
+.R3-C3-2 {
+  background-color: rgba(169, 203, 217, 0.4);
+}
+
+.R3-C4-2 {
+  background-color: rgba(242, 167, 75, 0.2);
+}
+
+.quienes-somos-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 96px;
+}
+
+.misión-visión-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 96px;
+}
+
+.misión-container {
+  width: 612px;
+  height: 388px;
+}
+
+.visión-container {
+  width: 612px;
+  height: 388px;
+}
+
+.misión-visión-container .misión-visión-title {
+  color: #333333;
+  font-size: 64px;
+  font-family: Anton;
+  font-weight: 400;
+  line-height: 96.34px;
+  margin-bottom: 8px;
+}
+
+.misión-visión-container .misión-visión-text {
+  color: #333333;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 32px;
+}
+
+.quienes-somos-text-container {
+  width: 612px;
+}
+
+.quienes-somos-text-container .title {
+  color: #333333;
+  font-size: 64px;
+  font-family: Anton;
+  margin-top: 64px;
+}
+
+.quienes-somos-text-container .sub-title {
+  color: #333333;
+  font-size: 24px;
+  font-family: Nunito Sans;
+  font-weight: 700;
+  line-height: 26px;
+  margin-top: 64px;
+}
+
+.quienes-somos-text-container .text {
+  color: #333333;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  margin-top: 32px;
+  line-height: 26px;
+}
+
+.valores p {
+  color: #333333;
+  font-size: 64px;
+  font-family: Anton;
+  margin-top: 64px;
+  text-align: center;
+}
+
+.valores-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 96px;
+  justify-content: center;
+  gap: 24px;
+}
+
+.valor {
+  width: 400px;
+  height: 348px;
+  box-shadow: 0px 4px 32px rgba(117, 91, 215, 0.25);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.valor .valor-title {
+  font-family: Anton;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 41px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.valor .valor-text {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  margin-top: 32px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.conoce-el-equipo .equipo .equipo-title {
+  font-family: Anton;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+}
+
+.conoce-el-equipo .equipo .equipo-text {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.conoce-el-equipo {
+  padding: 0 202px 64px 202px;
+}
+
+.conoce-el-equipo .imagenes {
+  display: flex;
+  justify-content: center;
+}
+
+.conoce-el-equipo .imagenes img {
+  width: 320px;
+  height: 400px;
+  border-radius: 16px;
+}

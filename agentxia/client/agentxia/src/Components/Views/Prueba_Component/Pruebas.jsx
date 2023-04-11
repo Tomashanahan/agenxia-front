@@ -32,7 +32,7 @@ const Pruebas = () => {
             <Nav className='nav_conten'>
                     <Nav.Link className='text-white text-nav' to="/">INICIO</Nav.Link>
                     <Nav.Link className='text-white text-nav' to="/">RESERVAR</Nav.Link>
-                    <Nav.Link className='text-white text-nav' to="/">QUIENES SOMOS</Nav.Link>
+                    <Nav.Link className='text-white text-nav' to="/QUIENES_SOMOS">QUIENES SOMOS</Nav.Link>
                     <Nav.Link className='text-white text-nav' to="/">TIENDA</Nav.Link>
                     <Nav.Link className='text-white text-nav' to="/">CONTÁCTANOS</Nav.Link>
                   </Nav>
