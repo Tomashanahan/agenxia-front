@@ -2,6 +2,7 @@
   position: absolute;
   top: 0;
   width: 100%;
+  height: 100%;
 }
 
 .box-Contactanos {
@@ -61,12 +62,12 @@
 }
 
 .form {
-  width: 50%;
+  width: 48%;
 }
 
 .contactanos .form .form-title {
   font-family: Nunito Sans;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 40px;
   text-align: left;
@@ -74,7 +75,7 @@
 
 .contactanos .form .form-text {
   font-family: Nunito Sans;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.02em;
@@ -98,7 +99,7 @@
 .contactanos form .group-input div input::placeholder {
   color: #b6b8b8;
   font-family: Nunito Sans;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.02em;
@@ -124,7 +125,7 @@
 }
 
 .contactanos form .form-textarea textarea {
-  width: 612px;
+  width: 600px;
   height: 163px;
   border-radius: 16px;
   padding: 12px 20px;
@@ -142,7 +143,7 @@
 
 .contactanos form .group-input div label {
   font-family: Nunito Sans;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -156,7 +157,7 @@
 }
 
 .datos {
-  width: 612px;
+  width: 45%;
   height: 760px;
   left: 732px;
   top: 64px;
@@ -168,7 +169,7 @@
 
 .datos-title {
   font-family: Poppins;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0em;
@@ -178,7 +179,7 @@
 
 .datos-text {
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
@@ -198,7 +199,7 @@
 
 .datos-group-item .title {
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0em;
@@ -208,7 +209,7 @@
 
 .datos-group-item .text {
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
